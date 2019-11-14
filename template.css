@@ -1,0 +1,31 @@
+.flow-text{
+  position: absolute;
+  z-index: 1000;
+}
+
+svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.navsvg {
+  box-shadow: 10px 10px grey;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.shadow {
+  -webkit-filter: drop-shadow( 20px 20px 20px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 20px 20px 20px rgba(0, 0, 0, .7));
+  /* Similar syntax to box-shadow */
+}
+.flow-text{
+  font-family: 'Anton', sans-serif;
+}
+
+
