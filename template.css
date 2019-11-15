@@ -1,6 +1,10 @@
+
+
 .flow-text{
   position: absolute;
   z-index: 1000;
+  margin-left: 20px; 
+  font-size: 50px;
 }
 
 svg {
@@ -10,11 +14,11 @@ svg {
   left: 0;
 }
 .navsvg {
-  box-shadow: 10px 10px grey;
-  display: inline-block;
   position: relative;
+  display: inline-block;
+  
   width: 100%;
-  padding-bottom: 100%;
+  padding-bottom: 35%;
   vertical-align: middle;
   overflow: hidden;
 }
@@ -28,4 +32,21 @@ svg {
   font-family: 'Anton', sans-serif;
 }
 
+.templates{
+  margin-top: 20px;
+ position: relative;
+}
 
+.simple img
+{
+  border-radius: 12px;
+  padding:10px 10px 10px 10px;
+}
+
+.cards {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: flex-start; /* switched from default (flex-start, see below) */
+
+}
