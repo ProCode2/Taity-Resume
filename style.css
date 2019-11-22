@@ -1,3 +1,7 @@
 body{
 	background-color: #e0f7fa;
 }
+
+.nav-wrapper{
+	background-image: linear-gradient(to right , #0d47a1,#82b1ff)
+}
