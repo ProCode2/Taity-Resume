@@ -1,0 +1,31 @@
+body{
+	background-color: #e0f7fa;
+}
+
+.nav-wrapper{
+	background-image: linear-gradient(to right , #0d47a1,#82b1ff)
+}
+
+#login-svg{
+	width: 500px;
+	height: 700px;
+}
+
+.login-form{
+	margin-top: 250px;
+	margin-left: 20px;
+}
+
+.login-plate{
+	background-color: #2962ff;
+	margin-top: 45px;
+	width: 1000px;
+	height:600px;
+	border-radius: 50px;
+	box-shadow: 0px 0px 0px grey;
+	transition: box-shadow 0.7s;
+}
+
+.login-plate:hover{
+	box-shadow: 10px 10px 5px grey;
+}
